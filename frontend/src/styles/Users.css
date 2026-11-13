@@ -1,0 +1,123 @@
+.users-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.users-container .ant-btn-primary {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-color: transparent;
+  color: white;
+  font-weight: 600;
+}
+
+.users-container .ant-btn-primary:hover {
+  background: linear-gradient(90deg, #5568d0 0%, #6a3d8a 100%);
+}
+
+.users-container .ant-btn-default {
+  color: #667eea;
+  border-color: #667eea;
+  font-weight: 600;
+}
+
+.users-container .ant-btn-default:hover {
+  color: #5568d0;
+  border-color: #5568d0;
+}
+
+.users-container .ant-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  border: none;
+  margin: 16px;
+}
+
+.users-container .ant-card-head {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-bottom: none;
+  padding: 16px;
+}
+
+.users-container .ant-card-head .ant-card-head-title {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.users-container .ant-card-body {
+  padding: 24px;
+}
+
+/* Statistics Cards */
+.users-container .ant-row > .ant-col > .ant-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.users-container .ant-row > .ant-col > .ant-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
+.users-container .ant-table {
+  background: white;
+  border-radius: 8px;
+}
+
+.users-container .ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-weight: 600;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.users-container .ant-table-tbody > tr:hover > td {
+  background-color: #f5f5f5;
+}
+
+.users-container .ant-statistic-title {
+  font-weight: 600;
+  color: #666;
+  font-size: 12px;
+}
+
+.users-container .ant-statistic-content {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Form & Input */
+.users-container .ant-input-search,
+.users-container .ant-input,
+.users-container .ant-select-selector {
+  border-radius: 4px;
+}
+
+.users-container .ant-input-search-button {
+  border-radius: 0 4px 4px 0;
+}
+
+.users-container .ant-space {
+  width: 100%;
+}
+
+.users-container .ant-space-item {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .users-container {
+    padding: 12px;
+  }
+
+  .users-container .ant-table {
+    font-size: 12px;
+  }
+
+  .users-container .ant-card-body {
+    padding: 16px;
+  }
+}

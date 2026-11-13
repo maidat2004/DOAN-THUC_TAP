@@ -1,0 +1,81 @@
+.stations-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.stations-container .ant-btn-primary {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-color: transparent;
+  color: white;
+  font-weight: 600;
+}
+
+.stations-container .ant-btn-primary:hover {
+  background: linear-gradient(90deg, #5568d0 0%, #6a3d8a 100%);
+}
+
+.stations-container .ant-btn-default {
+  color: #667eea;
+  border-color: #667eea;
+  font-weight: 600;
+}
+
+.stations-container .ant-btn-default:hover {
+  color: #5568d0;
+  border-color: #5568d0;
+}
+
+.stations-container .ant-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  border: none;
+}
+
+.stations-container .ant-card-head {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-bottom: none;
+  padding: 16px;
+}
+
+.stations-container .ant-card-head .ant-card-head-title {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.stations-container .ant-table {
+  background: white;
+  border-radius: 8px;
+}
+
+.stations-container .ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-weight: 600;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.stations-container .ant-table-tbody > tr:hover > td {
+  background-color: #f5f5f5;
+}
+
+.stations-container .ant-statistic-title {
+  font-weight: 600;
+  color: #666;
+  font-size: 12px;
+}
+
+.stations-container .ant-statistic-content {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .stations-container {
+    padding: 12px;
+  }
+
+  .stations-container .ant-table {
+    font-size: 12px;
+  }
+}

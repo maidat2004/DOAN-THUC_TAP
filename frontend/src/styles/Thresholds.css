@@ -1,0 +1,111 @@
+.thresholds-container {
+  padding: 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+}
+
+.thresholds-container .ant-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.thresholds-container .ant-card-head {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-bottom: none;
+  padding: 16px;
+}
+
+.thresholds-container .ant-card-head .ant-card-head-title {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.thresholds-container .ant-table {
+  background: white;
+  border-radius: 8px;
+}
+
+.thresholds-container .ant-table-thead > tr > th {
+  background-color: #fafafa;
+  font-weight: 600;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.thresholds-container .ant-table-tbody > tr:hover > td {
+  background-color: #f5f5f5;
+}
+
+/* Modal */
+.thresholds-container .ant-modal-header {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-bottom: none;
+  padding: 16px;
+}
+
+.thresholds-container .ant-modal-title {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* Statistics */
+.thresholds-container .ant-statistic-title {
+  font-weight: 600;
+  color: #595959;
+  margin-bottom: 8px;
+}
+
+.thresholds-container .ant-statistic-content {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+/* Forms */
+.thresholds-container .ant-form-item-label > label {
+  font-weight: 500;
+}
+
+.thresholds-container .ant-input,
+.thresholds-container .ant-input-number,
+.thresholds-container .ant-select-selector,
+.thresholds-container .ant-picker {
+  border-radius: 4px;
+}
+
+.thresholds-container .ant-btn-primary {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  border-color: transparent;
+  color: white;
+  font-weight: 600;
+}
+
+.thresholds-container .ant-btn-primary:hover {
+  background: linear-gradient(90deg, #5568d0 0%, #6a3d8a 100%);
+}
+
+.thresholds-container .ant-btn-default {
+  color: #667eea;
+  border-color: #667eea;
+  font-weight: 600;
+}
+
+.thresholds-container .ant-btn-default:hover {
+  color: #5568d0;
+  border-color: #5568d0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .thresholds-container {
+    padding: 12px;
+  }
+
+  .thresholds-container .ant-table {
+    font-size: 12px;
+  }
+
+  .thresholds-container .ant-button {
+    font-size: 12px;
+  }
+}
